@@ -1,5 +1,7 @@
 # Donut 3D di terminal
 
+Source code dalam C
+copy script
 ```c
              k;double sin()
          ,cos();main(){float A=
@@ -25,4 +27,6 @@ in(B),t=c*h*g-f*        e;int x=40+30*D*
 
 ```
 
-Jalankan 
+- Simpan file `donut.c`
+- Compile file `gcc donut.c -o donut`
+- jalankan `donut`
