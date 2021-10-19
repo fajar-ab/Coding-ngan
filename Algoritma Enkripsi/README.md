@@ -1,14 +1,8 @@
-# Projek Java Kriptografi (enkripsi-dekripsi)
-
-**Autor @fajar**
-## Tools
-### Java version
-> OpenJDK 16
-
-### Text Ediror
-> Visual Studio Code
-
-### VSC Plugin
-> Extension Pack for Java v0.18.5
+# Projek Java Kriptografi
 
 
+## Enkripsi
+![encipsi](https://github.com/Fajar-ab/Coding-ngan/blob/main/img/enkripsi.gif)
+
+## Dekripsi
+![dekripsi](https://github.com/Fajar-ab/Coding-ngan/blob/main/img/dekripsi.gif)
