@@ -85,9 +85,12 @@ public class BinaryTreeApp {
         } while (pilihan != 0);
     }
 
-    private static void clrscr() {
+    public static void clrscr(){
         try {
-            new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
-        } catch (IOException | InterruptedException ignored) {}
+            if (System.getProperty("os.name").contains("Windows"))
+                new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+            else
+                Runtime.getRuntime().exec("clear");
+        } catch (IOException | InterruptedException ex) {}
     }
 }
